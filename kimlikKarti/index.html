@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimlik Formu</title>
+</head>
+<body bgcolor="#e6e6e6">
+
+    <br><br>
+    
+    <center>
+        <hr>
+    
+    <form action="" method="POST" enctype="multipart/form-data">
+        
+        <fieldset>
+
+
+            <table border="1" bordercolor="#999999" width="500" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
+                
+                <tr bgcolor="#ffcccc">
+                    <td colspan="2" align="center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" width="30" align="middle"> 
+                        <b>TÜRKİYE CUMHURİYETİ</b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="160" align="right" bgcolor="#f2f2f2"><b>Resim Yükle:</b></td>
+                    <td><input type="file" name="resim" accept="image/*"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Ad:</b></td>
+                    <td><input type="text" name="ad" size="30" placeholder="Adınızı Girin"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Soyad:</b></td>
+                    <td><input type="text" name="soyad" size="30" placeholder="Soyadınızı Girin"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Doğum Tarihi:</b></td>
+                    <td><input type="date" name="dtarih"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Cinsiyet:</b></td>
+                    <td>
+                        <input type="radio" name="cinsiyet" id="e" value="Erkek"><label for="e">Erkek</label>
+                        &nbsp;
+                        <input type="radio" name="cinsiyet" id="k" value="Kadin"><label for="k">Kadın</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Seri No:</b></td>
+                    <td><input type="text" name="serino" placeholder="Örn: A12B34" size="15"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Son Geçerlilik Tarihi:</b></td>
+                    <td><input type="date" name="son_tarih"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Uyruğu:</b></td>
+                    <td>
+                        <input type="radio" name="uyruk" id="tc" checked><label for="tc">T.C.</label>
+                        &nbsp;
+                        <input type="radio" name="uyruk" id="dg"><label for="dg">Diğer</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Anne Adı:</b></td>
+                    <td><input type="text" name="anne_adi" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" bgcolor="#f2f2f2"><b>Baba Adı:</b></td>
+                    <td><input type="text" name="baba_adi" size="30"></td>
+                </tr>
+                
+                <tr bgcolor="#dddddd">
+                    <td colspan="2" align="center">
+                        <button type="submit">KAYDET</button>
+                        &nbsp;&nbsp;
+                        <button type="reset">TEMİZLE</button>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+    <hr>
+    
+    </center>
+    
+
+</body>
+</html>
